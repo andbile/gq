@@ -1,8 +1,96 @@
-<!-- top of page -->
 @@include('./template/_page_head.html')
-
 <!-- header (main nav menu) -->
 @@include('./template/_header.html')
+
+
+
+<section class="container section-index-request">
+        <div class="row">
+
+            <div class="col">
+                <div class="bock_img-full section-ir__photo" data-bock-img--full>
+                    <img src="img/img_01.jpg" alt="офис">
+                </div>
+            </div>
+
+
+            <div class="col section-ir__form-wrp">
+                <div class="section-ir__form">
+
+                    <h3 class="section-title">Организуем ваше пребывание в Майами до мелочей</h3>
+
+                    <form class="" action="" method="post" name="send-request">
+                        <div class="form-item form-item__input" data-input-clean-tel>
+                            <label for="input-purpose-visit">Номер вашего телефона</label>
+                            <input type="text" name="tel" id="input-purpose-visit">
+                            <span class="icon icon-cancel"></span>
+                        </div>
+
+                        <div class="form-item form-item__select">
+                            <label for="select-purpose-visit">Цель вашего прибывания в США</label>
+                            <select id="select-purpose-visit" name="select-purpose-visit">
+                                <option value="pv1">Покупка недвижимости 1</option>
+                                <option value="pv2">Покупка недвижимости 2</option>
+                                <option value="pv3">Покупка недвижимости 3</option>
+                                <option value="pv4">Покупка недвижимости 4</option>
+                            </select>
+                        </div>
+
+                        <div class="form-item__checkbox">
+
+                            <div class="switch-checkbox__wrp">
+                                <label>
+                                    <input type="checkbox" name="consent" value="yes" required>
+                                    <span class="switch-checkbox"></span>
+                                </label>
+                            </div>
+                            <span class="switch-checkbox__text">Я даю согласие на <span class="switch-checkbox__text--blue">обработку данных</span></span>
+                        </div>
+
+                         <input type="submit" class="btn btn--blue" name="send-request" value="Отправить заявку">
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+</section>
+
+<section class="container section-index-video">
+    <div class="row">
+
+        <div class="col">
+            <div class="section-iv__text">
+                <h3 class="section-title">GQ Concierge — Консьерж сервис
+                    и недвижимость в Майами</h3>
+                <p class="text">
+                    GQ Concierge предоставляет полный пакет услуг
+                    по недвижимости в Майами. Аренда, покупка,
+                    продажа недвижимости во Флориде Ипотека
+                    для иностранных граждан. Новостройки Майами.
+                </p>
+
+                <a class="section-iv__link" href=""></a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="section-iv__video bock_img-full" data-bock-img--full>
+                <img src="img/img_02.jpg" alt="видео">
+                 <a class="section-iv__link-play" href=""></a>
+                 <div class="section-iv__link-text">короткое видео <br> о нашей компании</div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+
 
 <!-- bottom of page -->
 @@include('./template/_page_bottom.html')

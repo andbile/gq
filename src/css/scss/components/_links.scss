@@ -1,19 +1,36 @@
+@import "../base/variables";
+
 a{
- /* color: $font-color-primary;*/
+  color: $font-color-black;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.4s;
 
   &:visited{
-   /* color: $font-color-primary;*/
+    color: $font-color-black;
   }
 
   &:active{
-    /*color: $font-color-primary;*/
+    color: $font-color-black;
   }
 
   &:hover{
     text-decoration: none;
-    /*color: $font-link-color-hover;*/
+    color: $font-color-black;
   }
+}
+
+.tel a{
+  font-family: PFHighwaySansPro, sans-serif;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: $font-color-blue;
+
+
 }

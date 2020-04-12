@@ -1,13 +1,27 @@
 $dir_img: '../img';
 
 // fonts
-/*$font-primary: normal 400 15px/1 'Formular', sans-serif;
-$font-color-primary: #1A1B1C;
+$font-color-black: #000000;
+$font-color-primary: #828282;
+$font-color-headers: #333333;
+$font-color-main-nav: #959BA4;
+$font-color-blue: #2F80ED;
+$font-color-icon: #AEAEAE;
+
+$font-primary: normal 400 16px/1 'Roboto', sans-serif;
+
+
+
+
+/*$font-color-primary: #1A1B1C;
 $font-color-white: #ffffff;
 $font-color-grey: #a3a4a4;
 $font-link-color-hover: #cc6a40;*/
 
 //background
+$bg-color-primary: #ffffff;
+$bg-color-secondary: #E5E5E5;
+$bg-color-border: #F2F2F2;
 /*$bg-color-primary: #ffffff;
 $bg-color-black: #1A1B1C;
 $bg-color-grey: #F1F3F4;

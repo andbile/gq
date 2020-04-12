@@ -2,6 +2,43 @@ ul{
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+
+.bock_img-full{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.bock_img-full > img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.section-title{
+  font-family: PFHighwaySansPro, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: $font-color-headers;
+}
+
+.text{
+  font-family: NeueHaasUnica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $font-color-primary;
+}
+
 
 
 

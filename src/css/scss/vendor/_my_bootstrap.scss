@@ -1,0 +1,8 @@
+$grid-gutter-width: 32px; // 30
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1248px // 1140  // 1216 (контент)+32(поля)
+);
