@@ -1,0 +1,57 @@
+.section-index-offer{
+  padding-top: 65px;
+  padding-bottom: 40px;
+}
+
+.offer-item{
+  margin-bottom: 50px;
+}
+
+.offer-item__photo{
+  height: 200px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+.offer-item__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .section-subtitle{
+    margin-bottom: 5px;
+  }
+
+  .text{
+    margin-bottom: 50px;
+  }
+}
+
+.offer-item__section-link{
+  text-align: center;
+}
+
+.offer-item__link{
+  font-family: 'PF Highway Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $font-color-blue;
+  transition: all 0.4s ;
+
+  &:visited{
+    color: $font-color-blue;
+  }
+
+  &:active{
+    color: $font-color-blue;
+  }
+
+  &:hover{
+    text-decoration: none;
+    color: $font-color-blue--hover;
+  }
+}
+

@@ -1,9 +1,12 @@
 @import "../../base/variables";
 
+.section-index-video--background{
+  background-color: $bg-color-secondary;
+}
+
 .section-index-video{
   padding-top: 48px;
   padding-bottom: 72px;
-  background-color: $bg-color-secondary;
 }
 
 .section-iv__text{
@@ -54,7 +57,7 @@
   top: 10px;
   left: 80px;
 
-  font-family: PFHighwaySansPro, sans-serif;
+  font-family: 'PF Highway Sans Pro', sans-serif;
   font-weight: 500;
   font-size: 11px;
   line-height: 24px;

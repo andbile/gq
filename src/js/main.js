@@ -6,5 +6,5 @@ jQuery(document).ready(function($) {
 
 
     // select
-    $('select').niceSelect();
+    $('select#select-purpose-visit').niceSelect();
 });

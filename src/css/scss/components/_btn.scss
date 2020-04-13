@@ -1,9 +1,11 @@
+@import "../base/variables";
+
 .btn{
   display: inline-block;
-  width: 100%;
   border-radius: 9px;
+  padding: 16px 23px;
 
-  font-family: PFHighwaySansPro, sans-serif;
+  font-family: 'PF Highway Sans Pro', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -11,28 +13,7 @@
   text-transform: uppercase;
 
   transition: all 0.4s;
-
-/*  a{
-    display: inline-block;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    width: 100%;
-  }*/
 }
-
-.btn--blue{
-  color: #ffffff;
-  background-color: $font-color-blue;
-
-  &:hover{
-    background-color: #549BFB;
-  }
-  
-  &:active, &:visited{
-    background-color: #397AD0;
-  }
-}
-
 
 input[type='submit'].btn{
   padding-top: 25px;
@@ -42,7 +23,32 @@ input[type='submit'].btn{
   cursor: pointer;
 }
 
-input[type='submit'].btn.btn--blue{
- /* color: #ffffff;
-  background-color: $font-color-blue;*/
+
+.btn--blue{
+  color: #ffffff;
+  background-color: $font-color-blue;
+  width: 100%;
+
+  &:hover{
+    background-color: #549BFB;
+  }
+
+  &:active, &:visited{
+    background-color: #397AD0;
+  }
+}
+
+.btn--grey{
+  background-color: $bg-color-border;
+  color: $font-color-blue;
+
+  &:visited, &:active{
+    color: $font-color-blue;
+    background-color: $bg-color-border;
+  }
+
+  &:hover{
+    color: #ffffff;
+    background-color: #A5A5A5;
+  }
 }

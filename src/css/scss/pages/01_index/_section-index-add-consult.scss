@@ -1,0 +1,77 @@
+@import "../../base/variables";
+
+.section-index-add-consult--background{
+  background-color: $bg-color-secondary;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-index-add-consult{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+  background: url("../img/img_04.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 16px;
+}
+
+.section-iac__content{
+  max-width: 480px;
+}
+
+.section-iac__header{
+  margin-bottom: 23px;
+  padding-left: 24px;
+  padding-top: 36px;
+
+  font-family: Century Gothic, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.section-iac__text{
+  padding-left: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.section-iac__application{
+  outline: 1px solid red;
+  flex: none;
+  width: 296px;
+  padding: 16px;
+
+  background-color: #fff;
+}
+
+.section-iac__application-photo{
+  height: 192px;
+  margin-bottom: 22px;
+  border-radius: 4px;
+}
+
+.section-iac__application-title{
+  margin-bottom: 17px;
+
+  font-family: 'PF Highway Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  color: $font-color-headers;
+}
+
+.section-iac__application-desc{
+  margin-bottom: 33px;
+
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}

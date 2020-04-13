@@ -1,6 +1,6 @@
 @import "../base/variables";
 
-.main-header__fluid{
+.main-header--border{
   border-bottom: 1px solid  $bg-color-border;
 }
 
@@ -26,7 +26,7 @@
   .main-menu__list{
     display: flex;
     list-style-type: none;
-    font-family: PFHighwaySansPro, sans-serif;
+    font-family: 'PF Highway Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
