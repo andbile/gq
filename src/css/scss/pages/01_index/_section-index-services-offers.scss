@@ -1,0 +1,134 @@
+.section-index-services-offers--background{
+  background-color: $bg-color-section-background;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.si-services-offers__items{
+  display: none;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+
+.si-services-offers__items.si-services-offers-items--active{
+  display: flex;
+}
+
+
+.si-services-opacity{
+  opacity:1;
+}
+
+
+
+
+
+.si-services-offers__item-wrp{
+  position: relative;
+  height: 512px;
+}
+
+.si-services-offers__img-wrp{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+
+.si-services-offers__bg-gradient{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  border-radius: 4px;
+  z-index: 1;
+
+}
+
+.si-services-offers__photo{
+  border-radius: 4px;
+}
+
+.si-services-offers__btns{
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 2;
+
+
+  a{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-top: 8px;
+    margin-right: 4px;
+
+    font-family: 'PF Highway Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    transition: all 0.4s;
+  }
+
+  a:hover{
+    background: rgba(255, 255, 255, 0.4);
+  }
+}
+
+
+.section-line--si-services-offers{
+  margin-bottom: 30px;
+
+}
+
+.si-services-offers__menu-btns{
+  font-size: 0;
+}
+
+.si-services-offers__btn{
+  display: inline-block;
+  padding: 8px 45px;
+
+  border-bottom: 3px solid transparent;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  background-color: $bg-color-section-background;
+
+  font-family: 'PF Highway Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $font-color-blue;
+
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover{
+    border-bottom: 3px solid $font-color-blue;
+    background-color: $bg-color-section-background--hover;
+
+  }
+}
+
+.si-services-offers__btn--active{
+  border-bottom: 3px solid $font-color-blue;
+}
+
+
+
+
+
+
+

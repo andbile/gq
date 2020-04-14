@@ -5,25 +5,10 @@
 }
 
 .container{
-  outline: 1px solid red;
+ /* outline: 1px solid red;*/
 }
 
-.br-4{
-  border-radius: 4px;
+.section-line{
+  height: 1px;
+  background: $bg-color-line;
 }
-
-.br-9{
-  border-radius: 9px;
-}
-
-/*
-.container{
-  padding-left: 6.11%;
-  padding-right: 6.11%;
-}
-
-
-.container--full{
-  padding-left: 0;
-  padding-right: 0;
-}*/

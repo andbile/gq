@@ -1,0 +1,130 @@
+.main-footer--line{
+  border-bottom: 1px solid $bg-color-line;
+}
+
+.main-footer{
+
+  padding-top: 60px;
+  padding-bottom: 45px;
+
+  .row:first-child{
+    margin-bottom: 75px;
+  }
+
+  .main-footer__links-block-title{
+    margin-bottom: 13px;
+
+    font-family: 'PF Highway Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: $font-color-headers;
+
+  }
+
+  .main-footer__links-block a{
+    display: block;
+    margin-bottom: 10px;
+
+    font-family: NeueHaasUnica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #BDBDBD;
+    transition: color 0.4s;
+
+    a:last-child{
+      margin-bottom: 0;
+    }
+
+    &:active, &visited{
+      color: #BDBDBD;
+    }
+
+    &:hover{
+      color: #979797;
+    }
+  }
+
+  .tel{
+    text-align: right;
+  }
+
+}
+
+.main-footer__policy{
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .policy__adv{
+    margin-bottom: 44px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+
+    color: #BDBDBD;
+  }
+
+  .policy__policy-content{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+
+    color: #BDBDBD;
+  }
+
+  .policy__policy-social{
+    text-align: right;
+  }
+
+  .social{
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    transform: translateY(-20px);
+
+    font-size: 0;
+    margin-left: 16px;
+
+    transition: all 0.4s;
+
+    &:first-child{
+      margin-left: 0;
+    }
+
+    &:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform:translate(-50%, -50%);
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover{
+      background-color: #B8B8B8;
+    }
+
+  }
+
+  .social-fb:after{
+    background: url("../img/sprite.svg#icon_fb") no-repeat;
+  }
+
+  .social-vk:after{
+    background: url("../img/sprite.svg#icon_vk") no-repeat;
+  }
+}

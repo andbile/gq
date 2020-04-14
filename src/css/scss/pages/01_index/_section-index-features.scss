@@ -2,3 +2,11 @@
   padding-top: 65px;
   padding-bottom: 65px;
 }
+
+.section-index-features--block-2 {
+  padding-bottom: 0;
+
+  .features__item{
+    margin-bottom: 65px;
+  }
+}

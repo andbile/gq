@@ -1,7 +1,7 @@
 @import "../../base/variables";
 
 .section-index-add-consult--background{
-  background-color: $bg-color-secondary;
+  background-color: $bg-color-section-background;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -42,7 +42,6 @@
 }
 
 .section-iac__application{
-  outline: 1px solid red;
   flex: none;
   width: 296px;
   padding: 16px;
